@@ -7,10 +7,11 @@ This repository is a collection of Jupyter Notebooks documenting my **hands-on l
 
 ## Notebooks Overview  
 
-### 1. **Notebook_1:**  Feature Selection & Hyperparameter Tuning 
+### 1. **Notebook_1:**  
+#### Feature Selection & Hyperparameter Tuning 
 Techniques covered:  
-- ✅ **Recursive Feature Elimination (RFE)** – Selecting the most relevant features by iteratively removing the least important ones.  
-- ✅ **GridSearchCV** – Automating hyperparameter tuning using different parameter combinations.  
-- ✅ **K-Fold Cross-Validation** – Improving model generalization by evaluating it across multiple data splits.  
+-  **Recursive Feature Elimination (RFE)** – Selecting the most relevant features by iteratively removing the least important ones.  
+-  **GridSearchCV** – Automating hyperparameter tuning using different parameter combinations.  
+-  **K-Fold Cross-Validation** – Improving model generalization by evaluating it across multiple data splits.  
 
 📌 *More notebooks will be added as I explore new techniques!*  
