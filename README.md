@@ -1,4 +1,4 @@
-# Practice-Predictive-Analytics  
+# MSBA-6421 - Practice-Predictive-Analytics  
 
 ## 📌 About This Repository  
 This repository is a collection of Jupyter Notebooks documenting my **hands-on learning** of various **Machine Learning techniques**. Each notebook explores a different ML concept with practical implementation.  
