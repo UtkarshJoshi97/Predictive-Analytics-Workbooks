@@ -1,6 +1,6 @@
-### 📒 Detailed Notebook Summaries
+### Detailed Notebook Summaries
 ---
-## Foundation & Fundamentals  
+## 📒 Foundation & Fundamentals  
 #### 01_Notebook [01_Feature_Selection_Hyperparameter_Tuning.ipynb](01_Feature_Selection_Hyperparameter_Tuning.ipynb)
 
 This notebook focuses on improving model performance through **feature selection** and **hyperparameter tuning** using classical machine learning models.
@@ -29,7 +29,7 @@ This notebook investigates how **ordinal variables** (features with a natural or
  **Objective:** Understand the impact of encoding strategies on model behavior and identify the most stable, accurate approach for ordinal data.
  
 ---
-## Deep Dives & Advanced Applications
+## 📒 Deep Dives & Advanced Applications
 
 #### 03_Notebook [03_Customer_Spending_Prediction.ipynb](03_Customer_Spending_Prediction.ipynb)
 
@@ -74,7 +74,7 @@ This notebook compares the performance of **shallow vs deep neural networks** us
  **Objective:** Analyze the trade-offs between shallow and deep architectures in capturing non-linear patterns.
  
 ---
-## Project
+## 📒 Project
 
 #### 🧠 [05_Predictive_ClosingPriceMovements_Project.ipynb](05_Predictive_ClosingPriceMovements_Project.ipynb)
 
