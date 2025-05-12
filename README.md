@@ -87,4 +87,4 @@ Link: https://www.kaggle.com/competitions/optiver-trading-at-the-close/overview
 - Trained regression models to predict **next-step price returns**, evaluated using **Mean Absolute Error (MAE)**.
 - Aligned with Kaggle's submission framework to generate and export `submission.csv`.
 
-🎯 **Objective:** Build a robust model to support smarter, faster pricing decisions during the volatile final moments of trading—mirroring the real-world challenges faced by quants and market makers.
+**Objective:** Build a robust model to support smarter, faster pricing decisions during the volatile final moments of trading—mirroring the real-world challenges faced by quants and market makers.
