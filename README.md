@@ -1,6 +1,7 @@
 ### 📒 Detailed Notebook Summaries
 ---
-### 01_Notebook [01_Feature_Selection_Hyperparameter_Tuning.ipynb](01_Feature_Selection_Hyperparameter_Tuning.ipynb)
+## Foundation & Fundamentals  
+#### 01_Notebook [01_Feature_Selection_Hyperparameter_Tuning.ipynb](01_Feature_Selection_Hyperparameter_Tuning.ipynb)
 
 This notebook focuses on improving model performance through **feature selection** and **hyperparameter tuning** using classical machine learning models.
 
@@ -14,7 +15,7 @@ This notebook focuses on improving model performance through **feature selection
  
 ---
 
-### 02_Notebook [02_Ordinal_Treatment_Model_Performance.ipynb](02_Ordinal_Treatment_Model_Performance.ipynb)
+#### 02_Notebook [02_Ordinal_Treatment_Model_Performance.ipynb](02_Ordinal_Treatment_Model_Performance.ipynb)
 
 This notebook investigates how **ordinal variables** (features with a natural order) affect model performance, and experiments with different treatments to handle them effectively.
 
@@ -28,8 +29,9 @@ This notebook investigates how **ordinal variables** (features with a natural or
  **Objective:** Understand the impact of encoding strategies on model behavior and identify the most stable, accurate approach for ordinal data.
  
 ---
+## Deep Dives & Advanced Applications
 
-### 03_Notebook [03_Customer_Spending_Prediction.ipynb](03_Customer_Spending_Prediction.ipynb)
+#### 03_Notebook [03_Customer_Spending_Prediction.ipynb](03_Customer_Spending_Prediction.ipynb)
 
 This notebook builds regression models to predict how much a customer is likely to spend, based on their historical behavior and profile data.
 
@@ -44,7 +46,7 @@ This notebook builds regression models to predict how much a customer is likely 
  
 ---
 
-### [Spam_Classification_CostSensitive.ipynb](04_Spam_Classification_CostSensitive.ipynb)
+#### [Spam_Classification_CostSensitive.ipynb](04_Spam_Classification_CostSensitive.ipynb)
 
 This notebook tackles **spam email detection**, with a special emphasis on **cost-sensitive classification**—because in real life, false negatives can be expensive.
 
@@ -59,7 +61,7 @@ This notebook tackles **spam email detection**, with a special emphasis on **cos
  **Objective:** Design models that aren’t just accurate, but economically efficient—prioritizing the minimization of high-cost misclassifications.
  
 ---
-### 04_Notebook [04_Shallow_vs_Deep_Neural_Network.ipynb](04_Shallow_vs_Deep_Neural_Network.ipynb)
+#### 04_Notebook [04_Shallow_vs_Deep_Neural_Network.ipynb](04_Shallow_vs_Deep_Neural_Network.ipynb)
 
 This notebook compares the performance of **shallow vs deep neural networks** using synthetic data.
 
@@ -72,8 +74,9 @@ This notebook compares the performance of **shallow vs deep neural networks** us
  **Objective:** Analyze the trade-offs between shallow and deep architectures in capturing non-linear patterns.
  
 ---
+## Project
 
-### 🧠 [05_Predictive_ClosingPriceMovements_Project.ipynb](05_Predictive_ClosingPriceMovements_Project.ipynb)
+#### 🧠 [05_Predictive_ClosingPriceMovements_Project.ipynb](05_Predictive_ClosingPriceMovements_Project.ipynb)
 
 A full-scale project built around the Kaggle competition **Optiver – Trading at the Close**, focused on predicting **short-term price movements** of Nasdaq-listed stocks using auction and order book data.
 
@@ -87,4 +90,12 @@ Link: https://www.kaggle.com/competitions/optiver-trading-at-the-close/overview
 - Trained regression models to predict **next-step price returns**, evaluated using **Mean Absolute Error (MAE)**.
 - Aligned with Kaggle's submission framework to generate and export `submission.csv`.
 
-**Objective:** Build a robust model to support smarter, faster pricing decisions during the volatile final moments of trading—mirroring the real-world challenges faced by quants and market makers.
+##### Ensemble Modeling Approach:
+- Leveraged a **weighted ensemble** of three model types to improve prediction stability and accuracy:
+  - **Tree-Based Models** (e.g., XGBoost, LightGBM): 50% weight — strong baseline with consistent performance.
+  - **GRU (Gated Recurrent Unit)** Model: 30% weight — added sequential learning to capture temporal dynamics.
+  - **Transformer-Based Model**: 20% weight — introduced attention mechanisms to capture dependencies across time steps.
+- **Why Ensemble?**  
+  Tree-based models were highly stable but struggled with sequential patterns. The GRU and Transformer filled this gap by modeling **temporal behavior**, while the ensemble approach balanced **robustness and time-awareness**.
+
+**Objective:** Build a robust hybrid model that combines the strengths of multiple architectures to support accurate pricing decisions in a fast-moving, high-stakes trading window — just like real-world quant systems.
