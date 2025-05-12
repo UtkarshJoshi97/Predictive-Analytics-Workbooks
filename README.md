@@ -1,7 +1,7 @@
 ### Detailed Notebook Summaries
 ---
 ## 📒 Foundation & Fundamentals  
-#### 01_Notebook [01_Feature_Selection_Hyperparameter_Tuning.ipynb](01_Feature_Selection_Hyperparameter_Tuning.ipynb)
+#### 01_Notebook: Feature_Selection_Hyperparameter_Tuning
 
 This notebook focuses on improving model performance through **feature selection** and **hyperparameter tuning** using classical machine learning models.
 
@@ -15,7 +15,7 @@ This notebook focuses on improving model performance through **feature selection
  
 ---
 
-#### 02_Notebook [02_Ordinal_Treatment_Model_Performance.ipynb](02_Ordinal_Treatment_Model_Performance.ipynb)
+#### 02_Notebook: Ordinal_Treatment_Model_Performance
 
 This notebook investigates how **ordinal variables** (features with a natural order) affect model performance, and experiments with different treatments to handle them effectively.
 
@@ -31,8 +31,8 @@ This notebook investigates how **ordinal variables** (features with a natural or
 ---
 ## 📒 Deep Dives & Advanced Applications
 
-#### 03_Notebook [03_Customer_Spending_Prediction.ipynb](03_Customer_Spending_Prediction.ipynb)
-
+#### 03_Notebook: Customer_Spending_Prediction and Spam_Classification_CostSensitive
+#### Customer_Spending_Prediction
 This notebook builds regression models to predict how much a customer is likely to spend, based on their historical behavior and profile data.
 
 ##### Key Work:
@@ -46,7 +46,7 @@ This notebook builds regression models to predict how much a customer is likely 
  
 ---
 
-#### [Spam_Classification_CostSensitive.ipynb](04_Spam_Classification_CostSensitive.ipynb)
+#### Spam_Classification_CostSensitive
 
 This notebook tackles **spam email detection**, with a special emphasis on **cost-sensitive classification**—because in real life, false negatives can be expensive.
 
@@ -61,7 +61,7 @@ This notebook tackles **spam email detection**, with a special emphasis on **cos
  **Objective:** Design models that aren’t just accurate, but economically efficient—prioritizing the minimization of high-cost misclassifications.
  
 ---
-#### 04_Notebook [04_Shallow_vs_Deep_Neural_Network.ipynb](04_Shallow_vs_Deep_Neural_Network.ipynb)
+#### 04_Notebook: Shallow_vs_Deep_Neural_Network
 
 This notebook compares the performance of **shallow vs deep neural networks** using synthetic data.
 
@@ -76,7 +76,7 @@ This notebook compares the performance of **shallow vs deep neural networks** us
 ---
 ## 📒 Project
 
-#### 🧠 [05_Predictive_ClosingPriceMovements_Project.ipynb](05_Predictive_ClosingPriceMovements_Project.ipynb)
+#### 🧠 05_Predictive_ClosingPriceMovements_Project
 
 A full-scale project built around the Kaggle competition **Optiver – Trading at the Close**, focused on predicting **short-term price movements** of Nasdaq-listed stocks using auction and order book data.
 
