@@ -58,7 +58,7 @@ Generated 120,000 data points from a non-linear function and split the data even
 # Project
 
 ####  05_Predictive_ClosingPriceMovements_Project
-##### Note: Note: The ensemble modeling approach showcased in this repository reflects the part of the project I worked on. While the overall project involved contributions from the entire team—including tree-based baselines, time-split models, and LSTM—this repo specifically highlights the ensemble technique I developed. A combined version with all components will be made available separately.
+##### Note: The ensemble modeling approach showcased in this repository reflects the part of the project I worked on. While the overall project involved contributions from the entire team—including tree-based baselines, time-split models, and LSTM—this repo specifically highlights the ensemble technique I developed. A combined version with all components will be made available separately.
 
 A full-scale project built around the Kaggle competition **Optiver – Trading at the Close**, focused on predicting **short-term price movements** of Nasdaq-listed stocks using auction and order book data.
 
